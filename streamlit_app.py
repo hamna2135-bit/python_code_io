@@ -11,3 +11,4 @@ st.write(
 raw_code = st.text_area("code")
 
 st.html(highlight(raw_code,PythonLexer(),pf.HtmlFormatter()))
+st.write(highlight(raw_code,PythonLexer(),pf.HtmlFormatter()))
