@@ -7,6 +7,7 @@ st.title("Pythonコード実行環境")
 st.write(
     "コードをここで試すことができるぞい"
 )
+
 raw_code = st.text_area("code")
 
-highlight(raw_code,PythonLexer(),pf.TerminalFormatter())
+st.write(highlight(raw_code,PythonLexer(),pf.TerminalFormatter()))
